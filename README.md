@@ -21,4 +21,4 @@ Komponentit:
 	api/users [GET, POST, PUT, DELETE]
 	api/devices [GET, POST, PUT, DELETE]
 	api/todos [GET, POST, PUT, DELETE]
-!({{https.github.com}}/JarkkoKuivala/MaintenanceToDo/Document/Database.png)
+![Tietokanta](https://github.com/JarkkoKuivala/MaintenanceToDo/blob/main/document/Database.png)
