@@ -1,7 +1,7 @@
 from flask import Flask,jsonify,request,send_file
 from data.connector import create_tables,new_user,new_device,new_task,get_tasks,edit_task,get_user_in_userlist,get_devices
 
-app = Flask(__name__,static_url_path="",static_folder="public")
+app = Flask(__name__)
 
 create_tables()
 
@@ -68,5 +68,5 @@ def fetch_todos():
         return "Success",201
     
     
-app.run("127.0.0.1",port=8080)
+app.run("127.0.0.1",port=3000)
 
