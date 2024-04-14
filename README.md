@@ -9,13 +9,13 @@ Tietokanta - Sqlite
 
 ## Frontend
 Komponentit:
-	Navbar
-	MaintenanceList
-	MachineForm
-	MaintenanceForm
-	DoneList
-	MaintenanceRow
-	DoneRow
+	- Navbar
+	- MaintenanceList
+	- MachineForm
+	- MaintenanceForm
+	- DoneList
+	- MaintenanceRow
+	- DoneRow
 
 ## Backend
 	api/users [GET, POST, PUT, DELETE]
